@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.watch {
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    padding: 60px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.time p {
+    font-weight: 600;
+}
+.controls button {
+    border: 1px solid black;
+    font-weight: 600;
+    height: 50px;
+    border-radius: 20px;
+    width: 80px;
+    margin: 5px;
+    transition: .2s ease-in;
+}
+.controls button:hover {
+     background-color: red;
+     color: wheat;
+}
